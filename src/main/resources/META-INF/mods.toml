@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All rights reserved"
+
+[[mods]]
+modId="minithundergolemmod"
+version="${version}"
+displayName="Mini Thunder Golem Mod"
+authors="souritmal2011"
+description='''
+A Minecraft mod introducing a tameable Mini Thunder Golem with custom behaviors.
+'''
+
+[[dependencies.minithundergolemmod]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.minithundergolemmod]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.21.4]"
+ordering="NONE"
+side="BOTH"
